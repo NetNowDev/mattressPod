@@ -14,21 +14,18 @@
   "nodes": [
     {
       "children": [
-        1
-      ],
-      "name": "Chassis_Vertical_Rounded_Cube"
-    },
-    {
-      "children": [
+        1,
         2,
-        3,
-        4
+        3
       ],
-      "name": "Chassis_Vertical_Rounded_Cube (1)"
-    },
-    {
       "mesh": 0,
-      "name": "Pod-right-Chassis"
+      "rotation": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5
+      ],
+      "name": "Pod-main-Chassis"
     },
     {
       "mesh": 1,
@@ -36,6 +33,10 @@
     },
     {
       "mesh": 2,
+      "name": "Pod-right-Chassis"
+    },
+    {
+      "mesh": 3,
       "name": "Pod-Screen"
     }
   ],
@@ -52,7 +53,7 @@
           "material": 0
         }
       ],
-      "name": "Pod-right-Chassis"
+      "name": "Pod-main-Chassis"
     },
     {
       "primitives": [
@@ -80,6 +81,20 @@
           "material": 0
         }
       ],
+      "name": "Pod-right-Chassis"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "material": 0
+        }
+      ],
       "name": "Pod-Screen"
     }
   ],
@@ -87,45 +102,45 @@
     {
       "bufferView": 0,
       "componentType": 5123,
-      "count": 276,
+      "count": 876,
       "type": "SCALAR",
       "name": "accessorIndices"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 111,
+      "count": 335,
       "max": [
         0.125,
-        0.205000013,
-        0.205000013
+        0.210000008,
+        0.210000008
       ],
       "min": [
-        0.121000007,
-        -0.205000013,
-        -0.205000013
+        -0.125,
+        -0.210000008,
+        -0.210000008
       ],
       "type": "VEC3",
       "name": "accessorPositions"
     },
     {
       "bufferView": 1,
-      "byteOffset": 1332,
+      "byteOffset": 4020,
       "componentType": 5126,
-      "count": 111,
+      "count": 335,
       "type": "VEC3",
       "name": "accessorNormals"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 111,
+      "count": 335,
       "type": "VEC2",
       "name": "accessorUVs"
     },
     {
       "bufferView": 0,
-      "byteOffset": 552,
+      "byteOffset": 1752,
       "componentType": 5123,
       "count": 276,
       "type": "SCALAR",
@@ -133,7 +148,7 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 2664,
+      "byteOffset": 8040,
       "componentType": 5126,
       "count": 111,
       "max": [
@@ -151,7 +166,7 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 3996,
+      "byteOffset": 9372,
       "componentType": 5126,
       "count": 111,
       "type": "VEC3",
@@ -159,7 +174,7 @@
     },
     {
       "bufferView": 2,
-      "byteOffset": 888,
+      "byteOffset": 2680,
       "componentType": 5126,
       "count": 111,
       "type": "VEC2",
@@ -167,43 +182,85 @@
     },
     {
       "bufferView": 0,
-      "byteOffset": 1104,
+      "byteOffset": 2304,
       "componentType": 5123,
-      "count": 864,
+      "count": 276,
       "type": "SCALAR",
       "name": "accessorIndices"
     },
     {
       "bufferView": 1,
-      "byteOffset": 5328,
+      "byteOffset": 10704,
       "componentType": 5126,
-      "count": 334,
+      "count": 111,
       "max": [
         0.125,
-        0.210000008,
-        0.210000008
+        0.205000013,
+        0.205000013
       ],
       "min": [
-        -0.125,
-        -0.210000008,
-        -0.21100001
+        0.121000007,
+        -0.205000013,
+        -0.205000013
       ],
       "type": "VEC3",
       "name": "accessorPositions"
     },
     {
       "bufferView": 1,
-      "byteOffset": 9336,
+      "byteOffset": 12036,
       "componentType": 5126,
-      "count": 334,
+      "count": 111,
       "type": "VEC3",
       "name": "accessorNormals"
     },
     {
       "bufferView": 2,
-      "byteOffset": 1776,
+      "byteOffset": 3568,
       "componentType": 5126,
-      "count": 334,
+      "count": 111,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2856,
+      "componentType": 5123,
+      "count": 276,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 13368,
+      "componentType": 5126,
+      "count": 111,
+      "max": [
+        0.0530000031,
+        0.147,
+        -0.208
+      ],
+      "min": [
+        -0.0530000031,
+        0.081,
+        -0.212000012
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14700,
+      "componentType": 5126,
+      "count": 111,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 4456,
+      "componentType": 5126,
+      "count": 111,
       "type": "VEC2",
       "name": "accessorUVs"
     }
@@ -211,20 +268,20 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 2832,
+      "byteLength": 3408,
       "name": "bufferViewScalar"
     },
     {
       "buffer": 0,
-      "byteOffset": 2832,
-      "byteLength": 13344,
+      "byteOffset": 3408,
+      "byteLength": 16032,
       "byteStride": 12,
       "name": "bufferViewFloatVec3"
     },
     {
       "buffer": 0,
-      "byteOffset": 16176,
-      "byteLength": 4448,
+      "byteOffset": 19440,
+      "byteLength": 5344,
       "byteStride": 8,
       "name": "bufferViewFloatVec2"
     }
@@ -232,7 +289,7 @@
   "buffers": [
     {
       "uri": "Vertical_POD_V01.bin",
-      "byteLength": 20624
+      "byteLength": 24784
     }
   ],
   "materials": [
@@ -247,7 +304,7 @@
         "metallicFactor": 0.0
       },
       "doubleSided": true,
-      "name": "Material #29",
+      "name": "Material #32",
       "extras": {
         "babylonSeparateCullingPass": false
       }
