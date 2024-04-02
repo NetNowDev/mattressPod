@@ -25,15 +25,15 @@
         0.5,
         -0.5
       ],
-      "name": "Pod-main-Chassis"
+      "name": "Pod-Main-Chassis"
     },
     {
       "mesh": 1,
-      "name": "Pod-left-Chassis"
+      "name": "Pod-Left-Chassis"
     },
     {
       "mesh": 2,
-      "name": "Pod-right-Chassis"
+      "name": "Pod-Right-Chassis"
     },
     {
       "mesh": 3,
@@ -53,7 +53,7 @@
           "material": 0
         }
       ],
-      "name": "Pod-main-Chassis"
+      "name": "Pod-Main-Chassis"
     },
     {
       "primitives": [
@@ -67,7 +67,7 @@
           "material": 0
         }
       ],
-      "name": "Pod-left-Chassis"
+      "name": "Pod-Left-Chassis"
     },
     {
       "primitives": [
@@ -81,7 +81,7 @@
           "material": 0
         }
       ],
-      "name": "Pod-right-Chassis"
+      "name": "Pod-Right-Chassis"
     },
     {
       "primitives": [
