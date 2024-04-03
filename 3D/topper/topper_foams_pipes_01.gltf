@@ -1,0 +1,189 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2024 v20240312.5"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "mesh": 0,
+      "name": "Topper-Foam-Bloc"
+    },
+    {
+      "mesh": 1,
+      "name": "Topper-Flow-Circuit-Right"
+    },
+    {
+      "mesh": 1,
+      "name": "Topper-Flow-Circuit-Left"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0
+        }
+      ],
+      "name": "Topper-Foam-Bloc"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Topper-Flow-Circuit-Right"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.901715636,
+        0.0134023326,
+        0.9002622
+      ],
+      "min": [
+        -0.8982845,
+        -0.0225976687,
+        -1.099738
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 288,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 72,
+      "componentType": 5123,
+      "count": 23760,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 576,
+      "componentType": 5126,
+      "count": 5618,
+      "max": [
+        0.0392752029,
+        0.009848205,
+        0.941281557
+      ],
+      "min": [
+        -0.8446116,
+        -0.009848083,
+        -1.0190866
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 67992,
+      "componentType": 5126,
+      "count": 5618,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 192,
+      "componentType": 5126,
+      "count": 5618,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 47592,
+      "name": "bufferViewScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47592,
+      "byteLength": 135408,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 183000,
+      "byteLength": 45136,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "topper_foams_pipes_01.bin",
+      "byteLength": 228136
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7921569,
+          0.819607854,
+          0.933333337,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "doubleSided": true,
+      "name": "Material #29",
+      "extras": {
+        "babylonSeparateCullingPass": false
+      }
+    }
+  ]
+}
