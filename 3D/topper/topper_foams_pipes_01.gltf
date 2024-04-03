@@ -62,14 +62,14 @@
     {
       "bufferView": 0,
       "componentType": 5123,
-      "count": 36,
+      "count": 5604,
       "type": "SCALAR",
       "name": "accessorIndices"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 24,
+      "count": 1076,
       "max": [
         0.901715636,
         0.0134023326,
@@ -85,22 +85,22 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 288,
+      "byteOffset": 12912,
       "componentType": 5126,
-      "count": 24,
+      "count": 1076,
       "type": "VEC3",
       "name": "accessorNormals"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 24,
+      "count": 1076,
       "type": "VEC2",
       "name": "accessorUVs"
     },
     {
       "bufferView": 0,
-      "byteOffset": 72,
+      "byteOffset": 11208,
       "componentType": 5123,
       "count": 23760,
       "type": "SCALAR",
@@ -108,7 +108,7 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 576,
+      "byteOffset": 25824,
       "componentType": 5126,
       "count": 5618,
       "max": [
@@ -126,7 +126,7 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 67992,
+      "byteOffset": 93240,
       "componentType": 5126,
       "count": 5618,
       "type": "VEC3",
@@ -134,7 +134,7 @@
     },
     {
       "bufferView": 2,
-      "byteOffset": 192,
+      "byteOffset": 8608,
       "componentType": 5126,
       "count": 5618,
       "type": "VEC2",
@@ -144,20 +144,20 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 47592,
+      "byteLength": 58728,
       "name": "bufferViewScalar"
     },
     {
       "buffer": 0,
-      "byteOffset": 47592,
-      "byteLength": 135408,
+      "byteOffset": 58728,
+      "byteLength": 160656,
       "byteStride": 12,
       "name": "bufferViewFloatVec3"
     },
     {
       "buffer": 0,
-      "byteOffset": 183000,
-      "byteLength": 45136,
+      "byteOffset": 219384,
+      "byteLength": 53552,
       "byteStride": 8,
       "name": "bufferViewFloatVec2"
     }
@@ -165,7 +165,7 @@
   "buffers": [
     {
       "uri": "topper_foams_pipes_01.bin",
-      "byteLength": 228136
+      "byteLength": 272936
     }
   ],
   "materials": [
