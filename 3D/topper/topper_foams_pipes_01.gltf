@@ -69,9 +69,9 @@
     {
       "mesh": 4,
       "translation": [
-        0.0144743733,
-        -0.460475117,
-        1.19731009
+        0.0145203918,
+        -0.429892272,
+        1.19658089
       ],
       "rotation": [
         0.7071068,
@@ -323,7 +323,7 @@
       "bufferView": 0,
       "byteOffset": 86376,
       "componentType": 5123,
-      "count": 15726,
+      "count": 15810,
       "type": "SCALAR",
       "name": "accessorIndices"
     },
@@ -331,15 +331,15 @@
       "bufferView": 1,
       "byteOffset": 241248,
       "componentType": 5126,
-      "count": 2962,
+      "count": 2989,
       "max": [
         0.0100000007,
-        0.615762055,
+        0.623826563,
         0.0100000007
       ],
       "min": [
         -0.350501329,
-        1.09356976E-16,
+        5.28466172E-17,
         -0.0100000007
       ],
       "type": "VEC3",
@@ -347,9 +347,9 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 276792,
+      "byteOffset": 277116,
       "componentType": 5126,
-      "count": 2962,
+      "count": 2989,
       "type": "VEC3",
       "name": "accessorNormals"
     },
@@ -357,7 +357,7 @@
       "bufferView": 2,
       "byteOffset": 80416,
       "componentType": 5126,
-      "count": 2962,
+      "count": 2989,
       "type": "VEC2",
       "name": "accessorUVs"
     }
@@ -365,20 +365,20 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 117828,
+      "byteLength": 117996,
       "name": "bufferViewScalar"
     },
     {
       "buffer": 0,
-      "byteOffset": 117828,
-      "byteLength": 312336,
+      "byteOffset": 117996,
+      "byteLength": 312984,
       "byteStride": 12,
       "name": "bufferViewFloatVec3"
     },
     {
       "buffer": 0,
-      "byteOffset": 430164,
-      "byteLength": 104112,
+      "byteOffset": 430980,
+      "byteLength": 104328,
       "byteStride": 8,
       "name": "bufferViewFloatVec2"
     }
@@ -386,7 +386,7 @@
   "buffers": [
     {
       "uri": "topper_foams_pipes_01.bin",
-      "byteLength": 534276
+      "byteLength": 535308
     }
   ],
   "materials": [
@@ -433,7 +433,7 @@
         "metallicFactor": 0.0
       },
       "doubleSided": true,
-      "name": "Material #36",
+      "name": "Material #37",
       "extras": {
         "babylonSeparateCullingPass": false
       }
