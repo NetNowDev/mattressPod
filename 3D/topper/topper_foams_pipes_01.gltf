@@ -69,9 +69,9 @@
     {
       "mesh": 4,
       "translation": [
-        0.0145818312,
-        -0.430105537,
-        1.19773674
+        0.01445147,
+        -0.430379063,
+        1.1969378
       ],
       "rotation": [
         0.7071068,
@@ -323,7 +323,7 @@
       "bufferView": 0,
       "byteOffset": 86376,
       "componentType": 5123,
-      "count": 9990,
+      "count": 8358,
       "type": "SCALAR",
       "name": "accessorIndices"
     },
@@ -331,25 +331,25 @@
       "bufferView": 1,
       "byteOffset": 241248,
       "componentType": 5126,
-      "count": 1945,
+      "count": 1580,
       "max": [
         0.0100000007,
-        0.8571348,
-        0.009908959
+        0.59764117,
+        0.0100000007
       ],
       "min": [
-        -0.5454363,
-        -1.6653346E-18,
-        -0.01
+        -0.350501329,
+        1.38777878E-16,
+        -0.0100000007
       ],
       "type": "VEC3",
       "name": "accessorPositions"
     },
     {
       "bufferView": 1,
-      "byteOffset": 264588,
+      "byteOffset": 260208,
       "componentType": 5126,
-      "count": 1945,
+      "count": 1580,
       "type": "VEC3",
       "name": "accessorNormals"
     },
@@ -357,7 +357,7 @@
       "bufferView": 2,
       "byteOffset": 80416,
       "componentType": 5126,
-      "count": 1945,
+      "count": 1580,
       "type": "VEC2",
       "name": "accessorUVs"
     }
@@ -365,20 +365,20 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 106356,
+      "byteLength": 103092,
       "name": "bufferViewScalar"
     },
     {
       "buffer": 0,
-      "byteOffset": 106356,
-      "byteLength": 287928,
+      "byteOffset": 103092,
+      "byteLength": 279168,
       "byteStride": 12,
       "name": "bufferViewFloatVec3"
     },
     {
       "buffer": 0,
-      "byteOffset": 394284,
-      "byteLength": 95976,
+      "byteOffset": 382260,
+      "byteLength": 93056,
       "byteStride": 8,
       "name": "bufferViewFloatVec2"
     }
@@ -386,7 +386,7 @@
   "buffers": [
     {
       "uri": "topper_foams_pipes_01.bin",
-      "byteLength": 490260
+      "byteLength": 475316
     }
   ],
   "materials": [
@@ -433,7 +433,7 @@
         "metallicFactor": 0.0
       },
       "doubleSided": true,
-      "name": "Material #32",
+      "name": "Material #33",
       "extras": {
         "babylonSeparateCullingPass": false
       }
