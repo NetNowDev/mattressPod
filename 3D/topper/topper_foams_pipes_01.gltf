@@ -18,7 +18,8 @@
         2,
         3,
         4,
-        5
+        5,
+        6
       ],
       "mesh": 0,
       "name": "Topper-Foam-Bloc"
@@ -80,6 +81,21 @@
         0.7071067
       ],
       "name": "Cord-Circuit-P2-Left"
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        -0.0140961157,
+        -0.429892272,
+        1.20726132
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071067
+      ],
+      "name": "Cord-Circuit-P2-Right"
     }
   ],
   "meshes": [
@@ -151,6 +167,20 @@
         }
       ],
       "name": "Cord-Circuit-P2-Left"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 20,
+          "material": 2
+        }
+      ],
+      "name": "Cord-Circuit-P2-Right"
     }
   ],
   "accessors": [
@@ -360,25 +390,67 @@
       "count": 2989,
       "type": "VEC2",
       "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 117996,
+      "componentType": 5123,
+      "count": 15810,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 312984,
+      "componentType": 5126,
+      "count": 2989,
+      "max": [
+        0.0100000007,
+        0.623826563,
+        0.0100000007
+      ],
+      "min": [
+        -0.350501329,
+        5.28466172E-17,
+        -0.0100000007
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 348852,
+      "componentType": 5126,
+      "count": 2989,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 104328,
+      "componentType": 5126,
+      "count": 2989,
+      "type": "VEC2",
+      "name": "accessorUVs"
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 117996,
+      "byteLength": 149616,
       "name": "bufferViewScalar"
     },
     {
       "buffer": 0,
-      "byteOffset": 117996,
-      "byteLength": 312984,
+      "byteOffset": 149616,
+      "byteLength": 384720,
       "byteStride": 12,
       "name": "bufferViewFloatVec3"
     },
     {
       "buffer": 0,
-      "byteOffset": 430980,
-      "byteLength": 104328,
+      "byteOffset": 534336,
+      "byteLength": 128240,
       "byteStride": 8,
       "name": "bufferViewFloatVec2"
     }
@@ -386,7 +458,7 @@
   "buffers": [
     {
       "uri": "topper_foams_pipes_01.bin",
-      "byteLength": 535308
+      "byteLength": 662576
     }
   ],
   "materials": [
