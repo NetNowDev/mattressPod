@@ -16,7 +16,8 @@
       "children": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "mesh": 0,
       "rotation": [
@@ -29,14 +30,18 @@
     },
     {
       "mesh": 1,
-      "name": "Pod-Left-Chassis"
+      "name": "Pod-Fluid-Tank"
     },
     {
       "mesh": 2,
-      "name": "Pod-Right-Chassis"
+      "name": "Pod-Left-Chassis"
     },
     {
       "mesh": 3,
+      "name": "Pod-Right-Chassis"
+    },
+    {
+      "mesh": 4,
       "name": "Pod-Screen"
     }
   ],
@@ -67,7 +72,7 @@
           "material": 0
         }
       ],
-      "name": "Pod-Left-Chassis"
+      "name": "Pod-Fluid-Tank"
     },
     {
       "primitives": [
@@ -81,7 +86,7 @@
           "material": 0
         }
       ],
-      "name": "Pod-Right-Chassis"
+      "name": "Pod-Left-Chassis"
     },
     {
       "primitives": [
@@ -92,6 +97,20 @@
             "TEXCOORD_0": 15
           },
           "indices": 12,
+          "material": 0
+        }
+      ],
+      "name": "Pod-Right-Chassis"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "indices": 16,
           "material": 0
         }
       ],
@@ -109,7 +128,7 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 335,
+      "count": 334,
       "max": [
         0.125,
         0.210000008,
@@ -125,16 +144,16 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 4020,
+      "byteOffset": 4008,
       "componentType": 5126,
-      "count": 335,
+      "count": 334,
       "type": "VEC3",
       "name": "accessorNormals"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 335,
+      "count": 334,
       "type": "VEC2",
       "name": "accessorUVs"
     },
@@ -142,15 +161,57 @@
       "bufferView": 0,
       "byteOffset": 1752,
       "componentType": 5123,
+      "count": 6600,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8016,
+      "componentType": 5126,
+      "count": 1707,
+      "max": [
+        0.0848973244,
+        0.09200001,
+        0.158702329
+      ],
+      "min": [
+        -0.07489733,
+        -0.203087956,
+        -0.110897519
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 28500,
+      "componentType": 5126,
+      "count": 1707,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2672,
+      "componentType": 5126,
+      "count": 1707,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14952,
+      "componentType": 5123,
       "count": 276,
       "type": "SCALAR",
       "name": "accessorIndices"
     },
     {
       "bufferView": 1,
-      "byteOffset": 8040,
+      "byteOffset": 48984,
       "componentType": 5126,
-      "count": 111,
+      "count": 110,
       "max": [
         -0.121000007,
         0.205000013,
@@ -166,23 +227,23 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 9372,
+      "byteOffset": 50304,
       "componentType": 5126,
-      "count": 111,
+      "count": 110,
       "type": "VEC3",
       "name": "accessorNormals"
     },
     {
       "bufferView": 2,
-      "byteOffset": 2680,
+      "byteOffset": 16328,
       "componentType": 5126,
-      "count": 111,
+      "count": 110,
       "type": "VEC2",
       "name": "accessorUVs"
     },
     {
       "bufferView": 0,
-      "byteOffset": 2304,
+      "byteOffset": 15504,
       "componentType": 5123,
       "count": 276,
       "type": "SCALAR",
@@ -190,9 +251,9 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 10704,
+      "byteOffset": 51624,
       "componentType": 5126,
-      "count": 111,
+      "count": 110,
       "max": [
         0.125,
         0.205000013,
@@ -208,23 +269,23 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 12036,
+      "byteOffset": 52944,
       "componentType": 5126,
-      "count": 111,
+      "count": 110,
       "type": "VEC3",
       "name": "accessorNormals"
     },
     {
       "bufferView": 2,
-      "byteOffset": 3568,
+      "byteOffset": 17208,
       "componentType": 5126,
-      "count": 111,
+      "count": 110,
       "type": "VEC2",
       "name": "accessorUVs"
     },
     {
       "bufferView": 0,
-      "byteOffset": 2856,
+      "byteOffset": 16056,
       "componentType": 5123,
       "count": 276,
       "type": "SCALAR",
@@ -232,7 +293,7 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 13368,
+      "byteOffset": 54264,
       "componentType": 5126,
       "count": 111,
       "max": [
@@ -250,7 +311,7 @@
     },
     {
       "bufferView": 1,
-      "byteOffset": 14700,
+      "byteOffset": 55596,
       "componentType": 5126,
       "count": 111,
       "type": "VEC3",
@@ -258,7 +319,7 @@
     },
     {
       "bufferView": 2,
-      "byteOffset": 4456,
+      "byteOffset": 18088,
       "componentType": 5126,
       "count": 111,
       "type": "VEC2",
@@ -268,20 +329,20 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 3408,
+      "byteLength": 16608,
       "name": "bufferViewScalar"
     },
     {
       "buffer": 0,
-      "byteOffset": 3408,
-      "byteLength": 16032,
+      "byteOffset": 16608,
+      "byteLength": 56928,
       "byteStride": 12,
       "name": "bufferViewFloatVec3"
     },
     {
       "buffer": 0,
-      "byteOffset": 19440,
-      "byteLength": 5344,
+      "byteOffset": 73536,
+      "byteLength": 18976,
       "byteStride": 8,
       "name": "bufferViewFloatVec2"
     }
@@ -289,7 +350,7 @@
   "buffers": [
     {
       "uri": "Vertical_POD_V01.bin",
-      "byteLength": 24784
+      "byteLength": 92512
     }
   ],
   "materials": [
@@ -304,7 +365,7 @@
         "metallicFactor": 0.0
       },
       "doubleSided": true,
-      "name": "Material #32",
+      "name": "Material #33",
       "extras": {
         "babylonSeparateCullingPass": false
       }
