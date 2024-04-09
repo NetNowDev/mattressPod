@@ -21,9 +21,9 @@
         0.7071067
       ],
       "scale": [
-        1000.0,
-        1000.0,
-        1000.0
+        700.0,
+        700.0,
+        700.0
       ],
       "name": "carpetFluffy"
     }
@@ -93,7 +93,7 @@
   ],
   "buffers": [
     {
-      "uri": "bedSideCarpet_02.bin",
+      "uri": "bedSideCarpet_03.bin",
       "byteLength": 4262592
     }
   ],
