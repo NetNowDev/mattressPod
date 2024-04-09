@@ -43,39 +43,39 @@
     {
       "bufferView": 0,
       "componentType": 5123,
-      "count": 3852,
+      "count": 2682,
       "type": "SCALAR",
       "name": "accessorIndices"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 730,
+      "count": 530,
       "max": [
-        0.530003,
+        1.13,
         0.033,
         0.0
       ],
       "min": [
-        -0.5300001,
+        -0.0579953566,
         -0.1,
-        -0.930000067
+        -1.93000078
       ],
       "type": "VEC3",
       "name": "accessorPositions"
     },
     {
       "bufferView": 1,
-      "byteOffset": 8760,
+      "byteOffset": 6360,
       "componentType": 5126,
-      "count": 730,
+      "count": 530,
       "type": "VEC3",
       "name": "accessorNormals"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 730,
+      "count": 530,
       "type": "VEC2",
       "name": "accessorUVs"
     }
@@ -83,20 +83,20 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 7704,
+      "byteLength": 5364,
       "name": "bufferViewScalar"
     },
     {
       "buffer": 0,
-      "byteOffset": 7704,
-      "byteLength": 17520,
+      "byteOffset": 5364,
+      "byteLength": 12720,
       "byteStride": 12,
       "name": "bufferViewFloatVec3"
     },
     {
       "buffer": 0,
-      "byteOffset": 25224,
-      "byteLength": 5840,
+      "byteOffset": 18084,
+      "byteLength": 4240,
       "byteStride": 8,
       "name": "bufferViewFloatVec2"
     }
@@ -104,7 +104,7 @@
   "buffers": [
     {
       "uri": "POD_Screen_Projection_01.bin",
-      "byteLength": 31064
+      "byteLength": 22324
     }
   ],
   "materials": [
@@ -119,7 +119,7 @@
         "metallicFactor": 0.0
       },
       "doubleSided": true,
-      "name": "Material #26",
+      "name": "Material #27",
       "extras": {
         "babylonSeparateCullingPass": false
       }
